@@ -1,0 +1,5 @@
+-> stringstream - It is used to traverse the words directly from the sentence of strings.
+    stringstream ss(s);
+    string temp;
+    while(ss>>temp){}
+    return temp.size();
